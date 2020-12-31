@@ -131,7 +131,6 @@ button {
 
 .texts p {
     font-size: 19px;
-    /* margin-top: 1em; */
     font-weight: 400;
 }
 
@@ -318,4 +317,92 @@ footer input {
 
 .attribution a {
     color: teal;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 92%;
+    }
+
+    header li a {
+        font-size: 16px;
+    }
+
+    header nav ul {
+ 
+    }
+
+    .card-holder {
+        width: 100%;
+    }
+    .flex {
+        display: block;
+    }
+
+    .files-img {
+        order: 1;
+    }
+
+    .texts {
+        order: 2;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .first-presentation {
+        margin-top: 3em;
+        min-height: 78vh;
+    }
+
+    .texts h2 {
+        font-size: 28px;
+    }
+
+    .texts p {
+        font-size: 16px;
+    }
+
+    .texts button {
+        margin-left: 0;
+        margin-top: .5em;
+        width: 40%;
+        padding: .8em 1em;
+    }
+
+    .texts input {
+        padding: .8em 1em;
+        font-size: 13px;
+    }
+
+    .link {
+        width: 48%;
+    }
+
+    .card-holder {
+        width: 80%;
+    }
+
+    .section-one p{
+        padding-top: 1em;
+    }
+
+    .section-one img {
+        padding-top: 0.9em;
+    }
+
+    .early-access {
+        height: 48vh;
+    }
+
+    .early-access p {
+        font-size: 15px;
+    }
+
+    footer button {
+        width: 100%;
+    }
+
+    .footer-navs {
+        font-size: 15px;
+    }
 }
