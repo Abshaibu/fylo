@@ -319,35 +319,6 @@ footer input {
     color: teal;
 }
 
-@media screen and (max-width: 500px) {
-    .container {
-        width: 92%;
-    }
-
-    header li a {
-        font-size: 16px;
-    }
-
-    header nav ul {
- 
-    }
-
-    .card-holder {
-        width: 100%;
-    }
-    .flex {
-        display: block;
-    }
-
-    .files-img {
-        order: 1;
-    }
-
-    .texts {
-        order: 2;
-    }
-}
-
 @media screen and (max-width: 786px) {
     .first-presentation {
         margin-top: 3em;
@@ -404,5 +375,109 @@ footer input {
 
     .footer-navs {
         font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 92%;
+    }
+
+    header li a {
+        font-size: 16px;
+    }
+
+    .card-holder {
+        width: 100%;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    .files-img {
+        order: 1;
+    }
+
+    .texts {
+        order: 2;
+    }
+
+    footer {
+        width: 103%;
+    }
+
+    .texts p {
+        font-size: 15px;
+    }
+
+    .early-access p,
+    h3,
+    .first-presentation p,
+    .first-presentation h2,
+    .second-presentation h2 {
+        text-align: center;
+    }
+
+    button,
+    input {
+        display: block;
+        width: 85%;
+    }
+
+    .early-access {
+        height: 80vh;
+    }
+
+    .footer-navs {
+        display: block;
+    }
+
+    .contact,
+    .about,
+    .contact-us,
+    .social-links {
+        margin-top: 3em;
+    }
+
+    .social-links {
+        width: 40%;
+        margin: 3em auto 2em;
+    }
+
+    .founder-text p {
+        padding-top: 0;
+    }
+
+    .card-holder {
+        font-size: 10px;
+    }
+
+    .founder-text h4 {
+        font-size: 11px;
+    }
+
+    .footer-logo {
+        width: 40%;
+    }
+
+    .link {
+        width: 51%;
+        margin: 1em auto 2.5em;
+    }
+
+    .form-holder {
+        margin-top: 1.5em;
+        width: 83%;
+    }
+
+    input.main-input {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .texts button {
+        width: 85%;
+        margin: 0.5em auto 0;
     }
 }
