@@ -3,13 +3,14 @@
 
 /* *******************List of colors used*********************** */
 list of colors {
-color: hsl(243, 87%, 12%);
-color: hsl(238, 22%, 44%);
-color: hsl(224, 93%, 58%);
-color: hsl(170, 45%, 43%);
-color: hsl(240, 80%, 98%);
-color: hsl(0, 0%, 75%);
+    color: hsl(243, 87%, 12%);
+    color: hsl(238, 22%, 44%);
+    color: hsl(224, 93%, 58%);
+    color: hsl(170, 45%, 43%);
+    color: hsl(240, 80%, 98%);
+    color: hsl(0, 0%, 75%);
 }
+
 /* **************************************************************** */
 
 * {
@@ -27,6 +28,8 @@ body {
 a {
     text-decoration: none;
 }
+
+
 
 button,
 input {
@@ -147,22 +150,10 @@ button {
     padding-left: 0.5em;
 }
 
-.link {
-    border-bottom: 1px solid hsl(170, 45%, 43%);
-    width: 38%;
-    margin-top: 1em;
-    margin-bottom: 2.5em;
-    font-size: 20px;
-}
 
 .form-holder {
     width: 59%;
     padding-left: 14%;
-}
-
-.link-holder {
-    padding-left: .5em;
-    width: 17%;
 }
 
 
@@ -181,11 +172,29 @@ button {
 }
 
 .texts a:hover {
-    color: hsl(170, 84%, 67%);
+    color: hsl(170, 82%, 45%);
 }
 
 .second-presentation {
     padding-bottom: 5em;
+}
+
+.fylo-link {
+    display: flex;
+    align-items: center;
+    margin: .8em 0 2em;
+    border-bottom: 1px solid hsl(170, 55%, 41%);
+    padding-bottom: .3em;
+    width: 33%;
+}
+
+.arrow-holder {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 12%;
+    height: auto;
+    margin-left: .4em;
 }
 
 .card-holder {
@@ -201,11 +210,11 @@ button {
     font-size: 15px;
 }
 
-.link,
 .profile,
 .footer-navs,
 .phone,
-.email, .social-links {
+.email,
+.social-links {
     display: flex;
 }
 
@@ -227,8 +236,8 @@ button {
 
 .early-access {
     background-color: hsl(238, 22%, 44%);
-    height: 30vh;
-    color: #bfbfbf;
+    min-height: 30vh;
+    color: #fffffff1;
     padding-top: 3em;
 }
 
@@ -260,7 +269,8 @@ footer nav ul {
     color: #fff;
 }
 
-footer a, .contact p {
+footer a,
+.contact p {
     color: #bfbfbf;
 }
 
@@ -345,15 +355,11 @@ footer input {
         font-size: 13px;
     }
 
-    .link {
-        width: 48%;
-    }
-
     .card-holder {
         width: 80%;
     }
 
-    .section-one p{
+    .section-one p {
         padding-top: 1em;
     }
 
@@ -362,7 +368,7 @@ footer input {
     }
 
     .early-access {
-        height: 48vh;
+        min-height: 48vh;
     }
 
     .early-access p {
@@ -399,16 +405,23 @@ footer input {
         width: 100%;
     }
 
+    .link {
+        margin: 3em 0;
+        justify-content: center;
+    }
+
     .flex {
-        display: block;
+        flex-direction: column;
     }
 
     .files-img {
-        order: 1;
+        order: -1;
     }
 
     .texts {
-        order: 2;
+        order: 1;
+        margin-top: 3em;
+        margin-bottom: 4em;
     }
 
     footer {
@@ -469,14 +482,10 @@ footer input {
         width: 40%;
     }
 
-    .link {
-        width: 51%;
-        margin: 1em auto 2.5em;
-    }
-
     .form-holder {
         margin-top: 1.5em;
         width: 83%;
+        margin-left: -2.9em;
     }
 
     input.main-input {
