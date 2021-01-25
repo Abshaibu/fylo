@@ -29,8 +29,6 @@ a {
     text-decoration: none;
 }
 
-
-
 button,
 input {
     border: none;
@@ -179,24 +177,6 @@ button {
     padding-bottom: 5em;
 }
 
-.fylo-link {
-    display: flex;
-    align-items: center;
-    margin: .8em 0 2em;
-    border-bottom: 1px solid hsl(170, 55%, 41%);
-    padding-bottom: .3em;
-    width: 33%;
-}
-
-.arrow-holder {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    width: 12%;
-    height: auto;
-    margin-left: .4em;
-}
-
 .card-holder {
     width: 60%;
     min-height: 30vh;
@@ -204,6 +184,22 @@ button {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: #fff;
     padding: 1.5em;
+}
+
+.fylo-holder {
+    margin: .2em 0 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.fylo-holder img {
+    width: 35px;
+    height: 35px;
+}
+
+.fylo-holder a {
+    display: flex;
+    align-items: center;
 }
 
 .card-holder p {
@@ -226,12 +222,9 @@ button {
     width: 5%;
 }
 
-.avatar-img {
-    width: 15%;
-}
-
 .avatar-img img {
     border-radius: 50%;
+    width: 62px;
 }
 
 .early-access {
@@ -335,6 +328,10 @@ footer input {
         min-height: 78vh;
     }
 
+    .fylo-holder span {
+        height: 55px;
+    }
+
     .texts h2 {
         font-size: 28px;
     }
@@ -357,6 +354,10 @@ footer input {
 
     .card-holder {
         width: 80%;
+    }
+    .fylo-holder img {
+        width: 30px;
+        height: 43px;
     }
 
     .section-one p {
@@ -405,11 +406,6 @@ footer input {
         width: 100%;
     }
 
-    .link {
-        margin: 3em 0;
-        justify-content: center;
-    }
-
     .flex {
         flex-direction: column;
     }
@@ -424,8 +420,13 @@ footer input {
         margin-bottom: 4em;
     }
 
+    .fylo-holder {
+        display: flex;
+        align-items: center;
+    }
+
     footer {
-        width: 103%;
+        width: 100%;
     }
 
     .texts p {
