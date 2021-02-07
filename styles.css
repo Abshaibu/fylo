@@ -410,10 +410,6 @@ footer input {
         flex-direction: column;
     }
 
-    .early-access .flex {
-        margin-bottom: 2em;
-    }
-
     .files-img {
         order: -1;
     }
@@ -452,7 +448,7 @@ footer input {
     }
 
     .early-access {
-        min-height: 65vh;
+        min-height: 68vh;
     }
 
     .footer-navs {
