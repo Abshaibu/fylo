@@ -315,7 +315,7 @@ footer input {
     font-size: 15px;
     text-align: center;
     margin-top: 3em;
-    height: 10vh;
+    min-height: 10vh;
 }
 
 .attribution a {
@@ -369,7 +369,7 @@ footer input {
     }
 
     .early-access {
-        min-height: 48vh;
+        min-height: 40vh;
     }
 
     .early-access p {
@@ -448,7 +448,7 @@ footer input {
     }
 
     .early-access {
-        height: 80vh;
+        min-height: 65vh;
     }
 
     .footer-navs {
