@@ -410,6 +410,10 @@ footer input {
         flex-direction: column;
     }
 
+    .early-access .flex {
+        margin-bottom: 2em;
+    }
+
     .files-img {
         order: -1;
     }
@@ -481,6 +485,7 @@ footer input {
 
     .footer-logo {
         width: 40%;
+        margin-top: 0.5em;
     }
 
     .form-holder {
